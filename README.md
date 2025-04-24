@@ -11,8 +11,7 @@ Este repositório apresenta o pipeline de ingestão de dados desenvolvido durant
 ├── data/                        # Diretório para dados processados ou extraídos
 ├── sample_data/                 # Exemplos de arquivos para testes
 ├── dados_boston.zip             # Arquivo ZIP contendo dados de Boston
-├── extract_and_upload.py        # Script Python de extração, compactação e upload
-├── azure_setup.sh               # Script Bash para provisionamento de recursos Azure
+├── save_data_blob_inicial.py    # Script Python de extração, compactação e upload
 ├── requirements.txt             # Dependências Python
 └── save_data_blob_inicial.ipynb # Notebook de exemplo
 ```
@@ -46,7 +45,6 @@ Este repositório apresenta o pipeline de ingestão de dados desenvolvido durant
 ## 🛠️ Pré-requisitos
 
 - Conta no Azure com permissão de criação de recursos  
-- [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli) instalada e autenticada (`az login`)  
 - Python 3.8+ e `pip`  
 - Git
 
@@ -80,21 +78,7 @@ Este repositório apresenta o pipeline de ingestão de dados desenvolvido durant
    export RAW_CONTAINER="raw-data"
    ```
 
----
 
-## 📦 Provisionamento via Azure CLI
-
-```bash
-bash azure_setup.sh
-```
-
-Esse script vai:
-
-- Criar o Resource Group  
-- Criar a Storage Account  
-- Criar os containers `raw-data` e `processed-data`
-
----
 
 ## 🏗️ Estrutura do Data Lake
 
