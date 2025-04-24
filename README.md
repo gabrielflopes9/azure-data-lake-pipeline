@@ -9,11 +9,10 @@ Este repositório apresenta o pipeline de ingestão de dados desenvolvido durant
 ```
 .
 ├── data/                        # Diretório para dados processados ou extraídos
-├── sample_data/                 # Exemplos de arquivos para testes
 ├── dados_boston.zip             # Arquivo ZIP contendo dados de Boston
 ├── save_data_blob_inicial.py    # Script Python de extração, compactação e upload
 ├── requirements.txt             # Dependências Python
-└── save_data_blob_inicial.ipynb # Notebook de exemplo
+
 ```
 
 ---
