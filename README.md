@@ -144,22 +144,7 @@ data_lake/
 - Configurar triggers de agendamento no Data Factory  
 - Adicionar monitoramento e alertas com Azure Monitor
 
----
 
-## 🤝 Contribuições
-
-1. Fork este repositório  
-2. Crie uma branch:  
-   ```bash
-   git checkout -b feature/nova-funcionalidade
-   ```
-3. Faça commit das mudanças:  
-   ```bash
-   git commit -m "Descrição da mudança"
-   ```
-4. Abra um Pull Request
-
----
 
 ## 📜 Licença
 
